@@ -1,0 +1,94 @@
+.about-us-section-area{
+    display: flex;
+    padding: 80px 0;
+    .section-one{
+        .about-us-caption{
+            font-family: "Jost", sans-serif;
+            color: #2a2a2a;
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+        .counts{
+            display: flex;
+            .count-one, .count-two{
+                width: 50%;
+                .count{
+                    color: #E67118;
+                    font-size: 50px;
+                    font-family: "Jost", sans-serif;
+                }
+                .count-paragraph{
+                    font-size: 17px;
+                    font-family: "Jost", sans-serif;
+                    color: #545454;
+                }
+            }
+        }
+    }
+    .section-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .about-us-paragraph{
+            color: #545454;
+            font-family: "Jost", sans-serif;
+        }
+        .about-us-btn{
+            display: inline-block;
+            max-width: 185px;   
+            font-size: 20px;
+            font-family: "Jost", sans-serif;
+            color: #ffffff;
+            background-color: #E67118;
+            text-decoration: none;
+            text-transform: capitalize;
+            margin-top: 32px;
+            border-radius: 41px;
+            padding: 16px 25px;
+            border: 1px solid #E67118;
+            line-height: 22px;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                background: none;
+                border: 1px solid #E67118;
+                color: #E67118 !important;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .about-us-section-area{
+        padding: 40px 15px;
+        flex-wrap: wrap;
+        .section-one{
+            width: 100%;
+        }
+        .section-two{
+            width: 100%;
+            .about-us-btn{
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .about-us-section-area{
+        padding: 20px 15px;
+        .section-one{
+            .about-us-caption{
+                font-size: 25px;
+                padding: 0;
+            }
+            .counts{
+                flex-wrap: wrap;
+                .count-one, .count-two{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

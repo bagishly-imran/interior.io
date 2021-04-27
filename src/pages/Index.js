@@ -1,9 +1,11 @@
 import React from 'react';
+import AboutUs from '../components/About';
+
 
 function index() {
     return(
         <div>
-            <h1>Index Page</h1>
+            <AboutUs/>
         </div>
     )
 }

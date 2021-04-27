@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../sass/Navbar.scss';
 import Logo from '../images/logo.png';
 
-function navbar() {
+const Navbar = () => {
+
+    const [open, setOpen] = useState(true); 
+
     return(
         <header className = "header">
             <div className = "header-one container">
@@ -15,7 +18,7 @@ function navbar() {
 
                 <div className = "logo-capt">
                     <a href = "/" rel="noopener" className = "logo">
-                        <img src= {Logo} alt = "FRANCLIN"/>
+                        <img className = "image-fluid" src= {Logo} alt = "FRANCLIN"/>
                     </a> 
                 </div>
 
@@ -23,6 +26,26 @@ function navbar() {
                     <a href = "#" className = "mnu-btn" rel="noopener">Blog</a>
                     <a href = "#" className = "mnu-btn" rel="noopener">Contact Us</a>
                     <a href = "#" className = "mnu-btn free-quote" rel="noopener">Free Quote</a>
+                </div>
+
+                <div className = "menu-list burger-menu" 
+                    
+                    style = {open ? {transition: "0.3s ease-in-out", height: "0", padding: "0",} 
+                    : {transition: "0.3s ease-in-out", padding: "15px 0", height: "250px",}}>
+                    
+                    <a href = "#" className = "mnu-btn" rel="noopener">Home</a>
+                    <a href = "#" className = "mnu-btn" rel="noopener">What We Do?</a>
+                    <a href = "#" className = "mnu-btn" rel="noopener">Projects</a>
+                    <a href = "#" className = "mnu-btn" rel="noopener">Blog</a>
+                    <a href = "#" className = "mnu-btn" rel="noopener">Contact Us</a>
+                    <a href = "#" className = "mnu-btn" rel="noopener">Free Quote</a>
+                </div>
+
+                <div className = "burger-menu-button">
+                    
+                    <button onClick = {() => setOpen(open => !open)} className = "burger-button">
+                        <i className={open ? "burger-btn bi bi-list" : "burger-btn bi bi-list bi-x"}></i>
+                    </button>
                 </div>
 
             </div>
@@ -39,4 +62,4 @@ function navbar() {
     )
 }
 
-export default navbar;  
+export default Navbar;  
