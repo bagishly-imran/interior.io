@@ -10,7 +10,7 @@
         }
         .counts{
             display: flex;
-            .count-one, .count-two{
+            .counts-single{
                 width: 50%;
                 .count{
                     color: #E67118;
@@ -85,7 +85,7 @@
             }
             .counts{
                 flex-wrap: wrap;
-                .count-one, .count-two{
+                .counts-single{
                     width: 100%;
                 }
             }

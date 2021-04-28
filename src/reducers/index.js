@@ -1,5 +1,20 @@
 export const INITIAL_STATE = {
-    posts : []
+    counters : [
+        {
+            id: 1,
+            label: "Successfully completed projects",
+            number: 450,
+            duration: 2,
+            plus: "+"
+        },
+        {
+            id: 2,
+            label : "Highly specialised employees",
+            number: 860,
+            duration: 2,
+            plus: ""
+        }
+    ]
 }
 
 

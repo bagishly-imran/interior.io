@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 import '../sass/Navbar.scss';
 import Logo from '../images/logo.png';
 
@@ -11,21 +12,21 @@ const Navbar = () => {
             <div className = "header-one container">
                 
                 <div className = "menu-list menu-list-one nav">
-                    <a href = "#" className = "mnu-btn" rel="noopener">Home</a>
-                    <a href = "#" className = "mnu-btn" rel="noopener">What We Do?</a>
-                    <a href = "#" className = "mnu-btn" rel="noopener">Projects</a>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">Home</Link>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">What We Do?</Link>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">Projects</Link>
                 </div>
 
                 <div className = "logo-capt">
-                    <a href = "/" rel="noopener" className = "logo">
+                    <Link to = "/" rel="noopener" className = "logo">
                         <img className = "image-fluid" src= {Logo} alt = "FRANCLIN"/>
-                    </a> 
+                    </Link> 
                 </div>
 
                 <div className = "menu-list menu-list-two nav">
-                    <a href = "#" className = "mnu-btn" rel="noopener">Blog</a>
-                    <a href = "#" className = "mnu-btn" rel="noopener">Contact Us</a>
-                    <a href = "#" className = "mnu-btn free-quote" rel="noopener">Free Quote</a>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">Blog</Link>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">Contact Us</Link>
+                    <Link to = '/' className = "mnu-btn free-quote" rel="noopener">Free Quote</Link>
                 </div>
 
                 <div className = "menu-list burger-menu" 
@@ -33,12 +34,12 @@ const Navbar = () => {
                     style = {open ? {transition: "0.3s ease-in-out", height: "0", padding: "0",} 
                     : {transition: "0.3s ease-in-out", padding: "15px 0", height: "250px",}}>
                     
-                    <a href = "#" className = "mnu-btn" rel="noopener">Home</a>
-                    <a href = "#" className = "mnu-btn" rel="noopener">What We Do?</a>
-                    <a href = "#" className = "mnu-btn" rel="noopener">Projects</a>
-                    <a href = "#" className = "mnu-btn" rel="noopener">Blog</a>
-                    <a href = "#" className = "mnu-btn" rel="noopener">Contact Us</a>
-                    <a href = "#" className = "mnu-btn" rel="noopener">Free Quote</a>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">Home</Link>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">What We Do?</Link>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">Projects</Link>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">Blog</Link>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">Contact Us</Link>
+                    <Link to = '/' className = "mnu-btn" rel="noopener">Free Quote</Link>
                 </div>
 
                 <div className = "burger-menu-button">
@@ -55,7 +56,7 @@ const Navbar = () => {
                     <h1 className ="hero-text">
                         My home is <u className ="hero-undrline">almost put together,</u> but I could really use a new rug.
                     </h1>
-                    <a href = "#" className = "hero-btn" rel="noopener">Check Our Services</a>
+                    <Link to = '/' className = "hero-btn" rel="noopener">Check Our Services</Link>
                 </div>
             </div>
         </header>

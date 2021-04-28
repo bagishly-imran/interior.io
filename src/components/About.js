@@ -1,7 +1,14 @@
 import React from 'react';
+// import {substring} from 'react-dom';
+import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
+import CountUp from 'react-countup';
 import '../sass/AboutUs.scss';
 
-function AboutUs() {
+const AboutUs = props => {
+
+    console.log(props.counters);
+
     return(
         <section className = "about-us-section-area container">
 
@@ -10,14 +17,16 @@ function AboutUs() {
                     We work side by side with you to create exceptional spaces.
                 </h3>
                 <div className = "counts">
-                    <div className = "count-one">
-                        <span className = "count">450 +</span>
-                        <p className = "count-paragraph">Successfully completed projects</p>       
-                    </div>
-                    <div className = "count-two">
-                        <span className = "count">860</span>
-                        <p className = "count-paragraph">Highly specialised employees</p>       
-                    </div>
+
+                    {
+                        props.counters.map(counts => (
+                            <div key = {counts.id} className = "counts-single">
+                                <span className = "count"><CountUp end = {counts.number} duration = {counts.duration}/> {counts.plus}</span>
+                                <p className = "count-paragraph">{counts.label}</p>       
+                            </div>
+                        ))
+                    }
+
                 </div>
             </div>
 
@@ -26,13 +35,21 @@ function AboutUs() {
                     With over 50 years of combined experience, our mission is to design with your values and vision in mind. 
                     We’re out to create purposeful spaces that balance art and creativity with science and strategy.
                 </p>
-                <a href = "#" className = "about-us-btn" rel="noopener">
+                <Link to = '/' className = "about-us-btn" rel="noopener">
                     More About Us
-                </a>
+                </Link>
             </div>
 
         </section>
     )
 }
 
-export default AboutUs;
+const mapStateToProps = state => {
+    return {
+        counters: state.counters
+    }
+}
+
+// export default AboutUs;
+
+export default connect(mapStateToProps)(AboutUs);
