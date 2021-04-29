@@ -1,0 +1,107 @@
+.about-area{
+    background-color: #FCF2EB;
+    .area-content{
+        display: flex;
+        padding: 0;
+        .about-area-title{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 20px 0 0;
+            *{
+                font-family: "Jost", sans-serif;
+            }
+            .area-title{
+                color: #2A2A2A;
+            }
+            .area-paragraph{
+                color: #656565;
+                padding-top: 20px;
+                margin-bottom: 30px;
+            }
+            .area-btn{
+                max-width: 175px;
+                color: #E67118 !important;
+                border: 1px solid #E67118;
+                display: inline-block;
+                padding: 14px 32px;
+                text-transform: capitalize;
+                font-size: 18px;
+                font-weight: 500;
+                background: none;
+                border-radius: 40px;
+                text-decoration: none;
+                text-align: center;
+                transition: 0.3s ease-in-out;
+                &:hover{
+                    background-color: #E67118;
+                    border: 1px solid #E67118;
+                    color: #fff !important;
+                }
+            }
+        }
+        .about-area-image{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            .about-area-image{
+                max-width: 526px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1366px) {
+    .about-area{
+        .area-content{
+            .about-area-image{
+                .about-area-image{
+                    width: 451px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .about-area{
+        .area-content{
+            flex-wrap: wrap;
+            .about-area-title{
+                width: 100%;
+                padding: 30px 15px;
+                .area-title{
+                    br{display: none;}
+                }
+                .area-paragraph{
+                    margin-bottom: 15px;
+                    padding-top: 10px; 
+                }
+            }
+            .about-area-image{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    .about-area{
+        .area-content{
+            .about-area-title{
+                padding: 15px !important;
+            }
+            .about-area-image{
+                .about-area-image{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

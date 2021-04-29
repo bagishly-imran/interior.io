@@ -7,7 +7,7 @@ import '../sass/AboutUs.scss';
 
 const AboutUs = props => {
 
-    console.log(props.counters);
+    // console.log(props.counters);
 
     return(
         <section className = "about-us-section-area container">

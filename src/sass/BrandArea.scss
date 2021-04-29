@@ -1,0 +1,91 @@
+.brand-area{
+    padding: 80px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .brand-title-content{
+        max-width: 856px;
+        .brand-title{
+            font-family: "Jost", sans-serif;
+            font-size: 34px;
+            display: block;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        .brand-paragraph{
+            color: rgb(101, 101, 101);
+            font-size: 18px;
+            font-family: "Jost", sans-serif;
+            font-weight: 300;
+            line-height: 1.5;
+            text-align: center;
+        }
+    }
+    .brands-logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+    }
+    .brands-logo-carousel{
+        width: 100%;
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    width: 100%;
+                    padding-top: 30px;
+                    center{
+                        height: 107px;
+                        user-select: none !important;
+                        img{
+                            width: 142px !important;
+                            user-select: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .brand-area{
+        .brands-logo-carousel{
+            display: none !important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .brand-area{
+        padding: 30px 15px;
+        .brands-logo{
+            display: none;
+        }
+    }
+}
+
+@media  screen and (max-width: 575px) {
+    .brand-area{
+        .brand-title-content{
+            .brand-title{
+                font-size: 29px;
+            }
+            .brand-paragraph{
+                margin: 18px 0 12px 0 !important;
+            }
+        }
+        .brands-logo-carousel{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        padding-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
