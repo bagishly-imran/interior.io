@@ -2,6 +2,8 @@ import React from 'react';
 import AboutUs from '../components/About';
 import AboutArea from '../components/AboutArea';
 import BrandArea from '../components/BrandArea';
+import VisitTailor from '../components/VisitTailor';
+
 
 function index() {
     return(
@@ -9,6 +11,7 @@ function index() {
             <AboutUs/>
             <AboutArea/>
             <BrandArea/>
+            <VisitTailor/>
         </div>
     )
 }
