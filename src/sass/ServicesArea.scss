@@ -1,0 +1,65 @@
+.services-area {
+    padding: 80px 15px;
+    .service-title{
+        color: #2a2a2a;
+    }
+    .services{
+        justify-content: space-around;
+        margin: 0;
+        padding-top: 30px;
+        .my-card{
+            max-width: 336px;
+            padding: 20px;
+            box-shadow: 0 0 4px 0 #b4b4b4;
+            border-radius: 5px;
+            transition: 0.4s ease-in-out;
+            &:hover{
+                box-shadow: 0 0 5px 0 #E67118;
+                .service-btn{color: #E67118;}
+            }
+            .service-btn{
+                color: #545454;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 1.4;
+                margin-bottom: 20px;
+                display: block;
+                text-decoration: none;
+                padding-top: 20px;
+                transition: 0.4s ease-in-out;
+            }
+            .service-paragraph{
+                font-family: "Jost-Regular", sans-serif;
+                font-weight: 300;
+                color: #6A6063;
+                line-height: 1.6;
+                margin-bottom: 0;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .services-area{
+        padding: 60px 15px;
+        .services{
+            justify-content: center;
+            .my-card{
+                margin: 8px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services-area{
+        padding: 30px 15px;
+        .services{
+            padding: 15px 0;
+            .my-card{
+                margin: 8px 0;
+            }
+        }
+    }
+}

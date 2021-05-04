@@ -80,6 +80,7 @@ header{
         background: url("../images/h1_hero.jpg") no-repeat;
         background-position: center;
         background-size: cover;
+        background-attachment: fixed;
         object-fit: cover;
         .hero-caption{
             display: flex;

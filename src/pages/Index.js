@@ -3,6 +3,8 @@ import AboutUs from '../components/About';
 import AboutArea from '../components/AboutArea';
 import BrandArea from '../components/BrandArea';
 import VisitTailor from '../components/VisitTailor';
+import ServicesArea from '../components/ServicesArea';
+import Testminoial from '../components/Testminoal';
 
 
 function index() {
@@ -12,6 +14,8 @@ function index() {
             <AboutArea/>
             <BrandArea/>
             <VisitTailor/>
+            <ServicesArea/>
+            <Testminoial/>
         </div>
     )
 }
