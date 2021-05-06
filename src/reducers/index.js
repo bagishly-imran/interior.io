@@ -38,6 +38,44 @@ export const INITIAL_STATE = {
             paragraph: "You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time.",
             image: Service3Svg
         }
+    ],
+    testminoials : [
+        {
+            id: 1,
+            title : "This design service",
+            comment : "You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time.",
+            fullname : "John Doe"
+        },
+        {
+            id: 2,
+            title : "What a great experience!",
+            comment : "You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time.",
+            fullname : "Sarah Doe"
+        },
+        {
+            id: 3,
+            title : "I would recommend this design service",
+            comment : "You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time.",
+            fullname : "Lora Rodrigues"
+        },
+        {
+            id: 4,
+            title : "Brilliant work",
+            comment : "You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time.",
+            fullname : "John Smith"
+        },
+        {
+            id: 5,
+            title : "Will definitely be using Franclin again",
+            comment : "You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time.",
+            fullname : "Willam Scott"
+        },
+        {
+            id: 6,
+            title : "I would recommend this design service",
+            comment : "You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time.",
+            fullname : "Adam Johnson"
+        },
     ]
 }
 

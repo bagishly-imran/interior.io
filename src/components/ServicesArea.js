@@ -21,7 +21,7 @@ const ServicesArea = props => {
 
                 {
                     services.map(service => (
-                        <div className = "my-card">
+                        <div key = {service.id} className = "my-card">
 
                         <img src = {service.image} alt = {service.image}/>
                             <Link className = "service-btn" to = '/'>{service.linkName}</Link>

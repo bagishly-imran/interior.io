@@ -1,6 +1,81 @@
 .testminoial{
     background-color: #F1C4A3;
     .testminoial-section{
-        padding: 80px ;
+        padding: 80px 0;
+        .slick-slider{
+            cursor: grab;
+            .slick-arrow{
+                display: none !important;
+            }
+            .slick-slide{
+                display: flex;
+                justify-content: center;
+                .testminoial-card{
+                    max-width: 350px;
+                    min-height: 350px;
+                    display: flex !important;
+                    flex-direction: column;
+                    justify-content: space-between !important;
+                    background-color: #fff;                     
+                    margin: 0 10px !important;
+                    padding: 50px 30px;
+                    border-radius: 5px;
+                    box-shadow: 0 0 4px 0 #b4b4b4;
+                    .testminoial-stars{
+                        i{color: #E67118; margin: 0 3px;}
+                    }
+                    .testinoial-comment-caption{
+                        font-size: 20px;
+                        font-weight: 500;
+                        margin-bottom: 20px;
+                        padding-top: 20px;
+                        display: block;
+                    }
+                    .testminoial-comment{
+                        color: #545454;
+                        margin-bottom: 40px;
+                        font-family: "Jost-Regular", sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .testminoial{
+        .testminoial-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .slick-slider{
+                width: 100%;
+                .slick-slide{
+                    .testminoial-card{
+                        max-width: 288px !important;
+                        min-height: 372px !important;
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .testminoial{
+        .testminoial-section{
+            padding : 50px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .testminoial{
+        .testminoial-section{
+            padding : 30px 0;
+        }
     }
 }
