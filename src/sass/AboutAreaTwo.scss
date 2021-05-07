@@ -1,0 +1,143 @@
+.about-area-two{
+    display: flex;
+    background-color: #FCF2EB;
+    .caption-about-two{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 120px 30px 120px 85px;
+        .caption-h1{
+            color: #2a2a2a;
+        }
+        .caption-paragraph{
+            color: #656565;
+            font-family: "Jost-Regular", sans-serif;
+        }
+        .dissmis-btn{
+            font-family: "Jost-Regular",sans-serif;
+            width: 178px;
+            display: inline;
+            color: #fff;
+            background: #E67118;
+            border: 1px solid #E67118 !important;
+            border: none;
+            padding: 17px 35px 16px 33px !important;
+            text-transform: capitalize;
+            border-radius: 0px;
+            font-size: 18px;
+            font-weight: 400;
+            display: inline-block;
+            border-radius: 40px;
+            text-decoration: none;
+            text-align: center;
+            transition: 0.3s ease-in-out;
+            &:hover{
+                background-color: transparent;
+                color: #E67118;
+            }
+        }
+    }
+    .about-content-video{
+        width: 40%;
+        background: url("https://preview.colorlib.com/theme/franclin/assets/img/gallery/video-bg.jpg");
+        background-position: left center;
+        background-size: cover;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .video-btn{
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #ffffff;
+            text-align: center;
+            border: none;
+            transition: 0.3s ease-in-out;
+            animation-name: shape;
+            animation-duration: 2.0s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
+            &:hover{
+                background-color: #E67118;
+                i{
+                    color: #ffffff;
+                }
+            }
+            i{
+                font-size: 40px !important;
+                text-align: center;
+                color: #E67118;
+            }
+        }
+
+        // Animation 
+
+        @keyframes shape {
+            0% {
+              box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+            }
+            80% {
+              box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+            }
+        }
+        
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .about-area-two{
+        .caption-about-two{
+            padding: 80px 20px 80px 125px;
+            .caption-h1{
+                font-size: 30px;
+            }
+            .caption-paragraph{
+                font-size: 16px;
+            }
+            .dissmis-btn{
+                padding: 15px 25px 10px 23px !important;
+            }
+        } 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-area-two{
+        display: flex;
+        flex-wrap: wrap;
+        .caption-about-two{
+            padding: 60px 15px;
+            margin: auto;
+            width: 100%;
+        } 
+        .about-content-video{
+            width: 100%;
+            height: 250px;
+        }
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .about-area-two{
+        .caption-about-two{
+            padding: 30px 15px;
+        } 
+    }
+}
+
+
+
+
+
+
+
+  

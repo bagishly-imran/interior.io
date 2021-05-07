@@ -5,6 +5,7 @@ import BrandArea from '../components/BrandArea';
 import VisitTailor from '../components/VisitTailor';
 import ServicesArea from '../components/ServicesArea';
 import Testminoial from '../components/Testminoal';
+import AboutAreaTwo from '../components/AboutAreaTwo';
 
 
 function index() {
@@ -16,6 +17,7 @@ function index() {
             <VisitTailor/>
             <ServicesArea/>
             <Testminoial/>
+            <AboutAreaTwo/>
         </div>
     )
 }
