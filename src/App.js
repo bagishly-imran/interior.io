@@ -22,8 +22,7 @@ function App() {
         <Navbar/>
 
         <Switch>
-          <Route exact  path = "/imran-portfolio-interior" component = {Home}/>
-          <Route  path = "/" component = {Home}/>
+          <Route exact  path = "/interior.io" component = {Home}/>
         </Switch>
 
         <Footer/>
