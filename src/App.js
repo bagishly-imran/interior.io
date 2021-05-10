@@ -23,7 +23,7 @@ function App() {
 
         <Switch>
           <Route exact  path = "/imran-portfolio-interior" component = {Home}/>
-          <Route exact  path = "/" component = {Home}/>
+          <Route  path = "/" component = {Home}/>
         </Switch>
 
         <Footer/>
