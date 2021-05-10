@@ -5,7 +5,7 @@ import '../sass/AboutAreaTwo.scss';
 export default function AboutAreaTwo() {
     return(
         <div className = "about-area-two">
-            <div className = "caption-about-two container">
+            <div className = "caption-about-two container" data-aos="zoom-in">
                 <h1 className = "caption-h1">
                     We work with more than 200 <br/>
                     vendors, big and small.

@@ -8,7 +8,7 @@ function VisitTailor () {
             <div className = "visit-content-image">
                <img src = "https://preview.colorlib.com/theme/franclin/assets/img/gallery/visit_bg.jpg" alt = {"Visit Tailor Image"}/> 
             </div>
-            <div className = "tailor-details container">
+            <div className = "tailor-details container" data-aos="fade-left">
                 <h1 className = "tailor-title">Personalized design solutions</h1>
                 <p className = "tailor-description">Designed by Franclin</p>
                 <div className = "tailor-stars nav">

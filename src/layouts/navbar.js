@@ -1,11 +1,13 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Link} from 'react-router-dom';
 import '../sass/Navbar.scss';
 import Logo from '../images/logo.png';
 
+
 const Navbar = () => {
 
     const [open, setOpen] = useState(true); 
+
 
     return(
         <header className = "header">
@@ -56,7 +58,7 @@ const Navbar = () => {
                     <h1 className ="hero-text">
                         My home is <u className ="hero-undrline">almost put together,</u> but I could really use a new rug.
                     </h1>
-                    <Link to = '/' className = "hero-btn" rel="noopener">Check Our Services</Link>
+                    <Link to = '/' className = "hero-btn" rel="noopener" data-aos="fade-up">Check Our Services</Link>
                 </div>
             </div>
         </header>

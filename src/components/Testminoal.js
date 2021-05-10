@@ -33,7 +33,7 @@ const Testminoial =  props => {
 
     return(
         <div className = "testminoial">
-            <div className = "testminoial-section container">
+            <div className = "testminoial-section container" data-aos="fade-up">
 
             <div className = "d-flex justify-content-center pb-4">
                 <h2>Customer testimonial</h2>

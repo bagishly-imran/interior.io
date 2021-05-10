@@ -7,7 +7,7 @@ function AboutArea () {
     return(
         <div className = "about-area">
             <div className = "container area-content">
-                <div className = "about-area-title">
+                <div className = "about-area-title" data-aos="zoom-in">
                     <h1 className = "area-title">
                         Design the <br/>
                         home you love

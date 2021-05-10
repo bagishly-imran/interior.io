@@ -13,7 +13,7 @@ const ServicesArea = props => {
     console.log(services);
 
     return(
-        <div className = "services-area container">
+        <div className = "services-area container" data-aos="fade-up">
             
             <h2 className = "service-title">Interior design is for everyone.</h2>
 
