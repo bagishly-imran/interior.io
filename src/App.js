@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './pages/Index';
 import Navbar from './layouts/navbar';
+import Footer from './layouts/footer';
 import './sass/App.scss';
 
 function App() {
@@ -13,8 +14,13 @@ function App() {
 
         <Switch>
           <Route exact  path = "/" component = {Home}/>
-        </Switch> 
+        </Switch>
+
+        <Footer/>
+
       </Router>
+
+        
     </div>
   );
 }

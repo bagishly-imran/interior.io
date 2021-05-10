@@ -1,0 +1,110 @@
+.footer{
+    background: #F5F6F7;
+    padding: 80px 0 5px 0;
+    .footer-one{
+        display: flex;
+        flex-wrap: wrap;
+        .footer-caption{
+            // display: block;
+            display: flex;
+            flex-direction: column;
+            padding: 0 10px;
+            margin: 15px 0;
+            img{max-width: 160px;}
+            a{
+                transition: 0.3s ease-in-out;
+                &:hover{
+                    text-decoration: underline #5E5E5E;
+                }
+            }
+            .ft-paragraph-title{
+                color: #5E5E5E;
+                font-size: 16px;
+                margin-top: 21px;
+                line-height: 1.8;
+            }
+            .phone-btn{
+                font-family: "Jost",sans-serif;
+                font-size: 24px !important;
+                color: #E67118 !important;
+                margin-bottom: 0px;
+                font-weight: 600 !important;
+                display: block;
+                text-decoration: underline transparent;
+                &:hover{
+                    text-decoration: underline #E67118;
+                }
+            }
+            .mail-btn{
+                color: #5E5E5E;
+                font-weight: 300;
+                font-size: 16px;
+                text-decoration: underline transparent;
+            }
+            .social-media{
+                display: flex;
+                // justify-content: center;
+                padding: 20px 0;
+                i{
+                    color: #5E5E5E;
+                    transition: 0.3s ease-in-out;
+                    margin: 10px;
+                    &:hover{
+                        color: #E67118;
+                    }
+                }
+            }
+            .capt-title{
+                margin-bottom: 21px;
+            }
+            .ftr-capt-btn{
+                font-family: "Jost-Regular", sans-serif;
+                color: #5E5E5E;
+                font-weight: 300;
+                font-size: 16px;
+                text-decoration: underline transparent;
+                padding: 5px 0;
+            }
+            .mail-form{
+                width: 100%;
+                height: 56px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 20px;
+                border: 1px solid #E67118;
+                color: #5E5E5E;
+                background: #fff;
+                border-radius: 30px;
+                padding-right: 5px;
+                .mail-form-input{
+                    // margin-right: 20px;
+                    border: none;
+                    outline: none;
+                    color: #5E5E5E;
+                }
+                .mail-form-btn{
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                    // margin-right: 5px !important;
+                    i{font-size: 20px; color: #E67118; }
+                }
+            }
+        }
+    }
+    .footer-two{
+        p{
+            font-family: "Jost-Regular", sans-serif;
+            text-align: center;
+            padding: 0 5px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+        padding: 30px 0 0 0;
+    }
+}

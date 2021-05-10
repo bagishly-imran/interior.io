@@ -6,6 +6,7 @@ import VisitTailor from '../components/VisitTailor';
 import ServicesArea from '../components/ServicesArea';
 import Testminoial from '../components/Testminoal';
 import AboutAreaTwo from '../components/AboutAreaTwo';
+import WanToWorkArea from '../components/WanToWorkArea';
 
 
 function index() {
@@ -18,6 +19,7 @@ function index() {
             <ServicesArea/>
             <Testminoial/>
             <AboutAreaTwo/>
+            <WanToWorkArea/>
         </div>
     )
 }

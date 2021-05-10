@@ -1,0 +1,80 @@
+.wan-to-work-area{
+    background: #1A1A1A;
+    padding: 80px 0;
+    .wantowork{
+        display: flex;
+        padding: 0;
+        .wantowork-section-one{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .wantowork-h2{
+                font-family: "Jost-Regular", sans-serif;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 1.5;
+                margin-bottom: 12px;
+                color: #fff;
+            }
+            .wantowork-p{
+                font-family: "Jost-Regular", sans-serif;
+                font-size: 18px;
+                margin-bottom: 0;
+                color: #DEDEDE;
+            }
+        }
+        .wantowork-section-two{
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .contact-us-btn{
+                font-family: "Jost-Regular",sans-serif;
+                color: #fff;
+                background: #E67118;
+                border: none;
+                padding: 17px 35px 16px 33px !important;
+                text-transform: capitalize;
+                border-radius: 0px;
+                font-size: 18px;
+                font-weight: 400;
+                display: inline-block;
+                border-radius: 40px;
+                text-decoration: none;
+                transition: 0.3s ease-in-out;
+                border: 1px solid #E67118 !important;
+                text-align: center;
+                &:hover{
+                    background-color: transparent;
+                    color: #E67118;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .wan-to-work-area{
+        padding: 30px 0 !important;
+        .wantowork{
+            padding: 0 15px;
+            flex-wrap: wrap;
+            .wantowork-section-one{
+                width: 100%;
+                .wantowork-p{
+                    br{display: none;}
+                }
+            }
+            .wantowork-section-two{
+                padding-top: 20px;
+                width: 100%;
+                justify-content: flex-start;
+                .contact-us-btn{
+                    padding: 15px 25px 10px 23px !important;
+                }
+            }
+        }
+    }
+}
