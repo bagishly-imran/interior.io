@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/imran-portfolio-interior/static/css/main.f4410efc.chunk.css",
+    "main.js": "/imran-portfolio-interior/static/js/main.8d94b90c.chunk.js",
+    "main.js.map": "/imran-portfolio-interior/static/js/main.8d94b90c.chunk.js.map",
+    "runtime-main.js": "/imran-portfolio-interior/static/js/runtime-main.eb4e9c6b.js",
+    "runtime-main.js.map": "/imran-portfolio-interior/static/js/runtime-main.eb4e9c6b.js.map",
+    "static/js/2.742d4a88.chunk.js": "/imran-portfolio-interior/static/js/2.742d4a88.chunk.js",
+    "static/js/2.742d4a88.chunk.js.map": "/imran-portfolio-interior/static/js/2.742d4a88.chunk.js.map",
+    "index.html": "/imran-portfolio-interior/index.html",
+    "static/css/main.f4410efc.chunk.css.map": "/imran-portfolio-interior/static/css/main.f4410efc.chunk.css.map",
+    "static/js/2.742d4a88.chunk.js.LICENSE.txt": "/imran-portfolio-interior/static/js/2.742d4a88.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/imran-portfolio-interior/static/media/Jost-Regular.ba7997a1.ttf",
+    "static/media/about1.b7430765.jpg": "/imran-portfolio-interior/static/media/about1.b7430765.jpg",
+    "static/media/Navbar.scss": "/imran-portfolio-interior/static/media/h1_hero.af5d5b2d.jpg",
+    "static/media/services1.8ca0a253.svg": "/imran-portfolio-interior/static/media/services1.8ca0a253.svg",
+    "static/media/services2.8b66faf5.svg": "/imran-portfolio-interior/static/media/services2.8b66faf5.svg",
+    "static/media/services3.d2c738ea.svg": "/imran-portfolio-interior/static/media/services3.d2c738ea.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb4e9c6b.js",
+    "static/js/2.742d4a88.chunk.js",
+    "static/css/main.f4410efc.chunk.css",
+    "static/js/main.8d94b90c.chunk.js"
+  ]
+}
