@@ -24,7 +24,7 @@ const ServicesArea = props => {
                         <div key = {service.id} className = "my-card">
 
                         <img src = {service.image} alt = {service.image}/>
-                            <Link className = "service-btn" to = '/'>{service.linkName}</Link>
+                            <Link className = "service-btn" to = '/interior.io'>{service.linkName}</Link>
                             <p className = "service-paragraph">
                                 {service.paragraph}
                             </p>

@@ -12,41 +12,41 @@ function footer() {
                     <p className = "ft-paragraph-title">
                         Duis aute irure dolor inasfa reprehenderit in voluptate velit esse cillum
                     </p>
-                    <a href = "tel:+994505110003" className = "phone-btn" rel="noreferrer" target ="_blank">994(50) 511 00 03</a>
-                    <a href = "mailto:baxisli74@gmail.com" className = "mail-btn" rel="noreferrer" target = "_blank">baxisli74@gmail.com</a>
+                    <Link to = "tel:+994505110003" className = "phone-btn" rel="noreferrer" target ="_blank">994(50) 511 00 03</Link>
+                    <Link to = "mailto:baxisli74@gmail.com" className = "mail-btn" rel="noreferrer" target = "_blank">baxisli74@gmail.com</Link>
                     <div className = "social-media">
-                        <a href = "#" className = "scm-btn" rel="noreferrer" target = "_blank">
+                        <Link to = 'https://www.instagram.com/imrn.bl/' className = "scm-btn" rel="noreferrer" target = "_blank">
                             <i className="bi bi-instagram"></i>
-                        </a>
-                        <a href = "#" className = "scm-btn" rel="noreferrer" target = "_blank">
+                        </Link>
+                        <Link to = 'https://www.facebook.com/imos11/' className = "scm-btn" rel="noreferrer" target = "_blank">
                             <i className="bi bi-facebook"></i>
-                        </a>
-                        <a href = "#" className = "scm-btn" rel="noreferrer" target = "_blank">
+                        </Link>
+                        <Link to = 'https://www.linkedin.com/in/imran22/' className = "scm-btn" rel="noreferrer" target = "_blank">
                             <i className="bi bi-linkedin"></i>
-                        </a>
-                        <a href = "#" className = "scm-btn" rel="noreferrer" target = "_blank">
+                        </Link>
+                        <Link to = '#' className = "scm-btn" rel="noreferrer" target = "_blank">
                             <i className="bi bi-youtube"></i>
-                        </a>
+                        </Link>
                     </div>
                 </div> 
                 <div className = "footer-caption col-12 col-sm-6 col-lg-3 ">
                     <h4 className = "capt-title">
                         Navigation
                     </h4>
-                    <Link to = '/' className = "ftr-capt-btn">Home</Link>
-                    <Link to = '/' className = "ftr-capt-btn">About</Link>
-                    <Link to = '/' className = "ftr-capt-btn">Services</Link>
-                    <Link to = '/' className = "ftr-capt-btn">Blog</Link>
-                    <Link to = '/' className = "ftr-capt-btn">Contact</Link>
+                    <Link to = '/interior.io' className = "ftr-capt-btn">Home</Link>
+                    <Link to = '/interior.io' className = "ftr-capt-btn">About</Link>
+                    <Link to = '/interior.io' className = "ftr-capt-btn">Services</Link>
+                    <Link to = '/interior.io' className = "ftr-capt-btn">Blog</Link>
+                    <Link to = '/interior.io' className = "ftr-capt-btn">Contact</Link>
                 </div> 
                 <div className = "footer-caption col-12 col-sm-6 col-lg-3 ">
                     <h4 className = "capt-title">
                         Services
                     </h4>
-                    <Link to = '/' className = "ftr-capt-btn">Drone Mapping</Link>
-                    <Link to = '/' className = "ftr-capt-btn">Real State</Link>
-                    <Link to = '/' className = "ftr-capt-btn">Commercial</Link>
-                    <Link to = '/' className = "ftr-capt-btn">Construction</Link>
+                    <Link to = '/interior.io' className = "ftr-capt-btn">Drone Mapping</Link>
+                    <Link to = '/interior.io' className = "ftr-capt-btn">Real State</Link>
+                    <Link to = '/interior.io' className = "ftr-capt-btn">Commercial</Link>
+                    <Link to = '/interior.io' className = "ftr-capt-btn">Construction</Link>
                 </div> 
                 <div className = "footer-caption col-12 col-sm-6 col-lg-3 ">
                     <h4 className = "capt-title">
@@ -63,7 +63,7 @@ function footer() {
             </div>
 
             <div className = "footer-two d-flex justify-content-center"> 
-                <p>Copyright ©2021 All rights reserved | This template is made with  by Colorlib & Baxisli Imran</p>
+                <p data-aos="fade-up">Copyright ©2021 All rights reserved | This template is made with  by Colorlib & Baxisli Imran</p>
             </div>
         </footer>
     )

@@ -5,7 +5,7 @@ function BrandArea() {
     return(
         <div className = "brand-area container">
             <div className = "brand-title-content">
-                <h2 className = "brand-title" data-aos="zoom-in">
+                <h2 className = "brand-title">
                     “Franclin managed everything from furniture selection, 
                     purchase, delivery and assembly, and have been a pleasure working with”
                 </h2>

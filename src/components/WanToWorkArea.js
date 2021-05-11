@@ -16,7 +16,7 @@ function WanToWorkArea() {
                     </p>
                 </div>
                 <div className = "wantowork-section-two">
-                    <Link to = '/' className = "contact-us-btn">Contact Us</Link>
+                    <Link to = '/interior.io' className = "contact-us-btn">Contact Us</Link>
                 </div>
             </div>
         </div>

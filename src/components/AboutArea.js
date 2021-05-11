@@ -7,7 +7,7 @@ function AboutArea () {
     return(
         <div className = "about-area">
             <div className = "container area-content">
-                <div className = "about-area-title" data-aos="zoom-in">
+                <div className = "about-area-title">
                     <h1 className = "area-title">
                         Design the <br/>
                         home you love
@@ -16,7 +16,7 @@ function AboutArea () {
                         With over 50 years of combined experience, our mission is to design with your values and vision in mind. 
                         We’re out to create purposeful spaces that balance art and creativity with science and strategy.
                     </p>
-                    <Link className = "area-btn" to = '/'>Learn More</Link>
+                    <Link className = "area-btn" to = '/interior.io'>Learn More</Link>
                 </div>
 
                 <div className = "about-area-image">

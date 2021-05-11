@@ -6,9 +6,9 @@ function VisitTailor () {
     return(
         <div className =" visit-tailor-area">
             <div className = "visit-content-image">
-               <img src = "https://preview.colorlib.com/theme/franclin/assets/img/gallery/visit_bg.jpg" alt = {"Visit Tailor Image"}/> 
+               <img src = "https://preview.colorlib.com/theme/franclin/assets/img/gallery/visit_bg.jpg" alt = "visit"/> 
             </div>
-            <div className = "tailor-details container" data-aos="fade-left">
+            <div className = "tailor-details container">
                 <h1 className = "tailor-title">Personalized design solutions</h1>
                 <p className = "tailor-description">Designed by Franclin</p>
                 <div className = "tailor-stars nav">
@@ -34,7 +34,7 @@ function VisitTailor () {
                     </div>
                 </div>
 
-                <Link className = "tailor-link" to = '/' >View Gallery</Link>
+                <Link className = "tailor-link" to = '/interior.io' >View Gallery</Link>
 
             </div>
         </div>

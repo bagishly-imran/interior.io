@@ -1,0 +1,18 @@
+.error-page{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .not-found-text{
+        font-family: "Jost", sans-serif;
+        font-style: italic;
+        text-align: center;
+    }
+    .error-text{
+        color: #ff0000;
+        font-family: "Jost", sans-serif;
+        font-style: italic;
+        text-align: center;
+    }
+}
