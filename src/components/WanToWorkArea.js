@@ -6,7 +6,7 @@ function WanToWorkArea() {
     return(
         <div className = "wan-to-work-area">
             <div className = "wantowork container">
-                <div className = "wantowork-section-one" data-aos="flip-down">
+                <div className = "wantowork-section-one">
                     <h2 className = "wantowork-h2">
                         Any help needed?
                     </h2>

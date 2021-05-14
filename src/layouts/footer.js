@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 function footer() {
     return(
         <footer className = "footer">
-            <div className = "footer-one container" data-aos="fade-up">
+            <div className = "footer-one container">
                 <div className = "footer-caption col-12 col-sm-6 col-lg-3 ">
                     <img src ={Logo} alt = "Logo"/>
                     <p className = "ft-paragraph-title">
@@ -63,7 +63,7 @@ function footer() {
             </div>
 
             <div className = "footer-two d-flex justify-content-center"> 
-                <p data-aos="fade-up">Copyright ©2021 All rights reserved | This template is made with  by Colorlib & Baxisli Imran</p>
+                <p>Copyright ©2021 All rights reserved | This template is made with  by Colorlib & Baxisli Imran</p>
             </div>
         </footer>
     )
