@@ -29,7 +29,7 @@ const Testminoial =  props => {
     }
 
 
-    console.log(props.testminoials);
+    // console.log(props.testminoials);
 
     return(
         <div className = "testminoial">
@@ -52,9 +52,9 @@ const Testminoial =  props => {
                                     <i className ="bi bi-star-fill"></i>
                                 </div>
                                 <div>
-                                    <h5 className = "testinoial-comment-caption">
+                                    <h1 className = "testinoial-comment-caption">
                                         {testminoial.title}
-                                    </h5>
+                                    </h1>
                                     <p className = "testminoial-comment">
                                         {testminoial.comment}
                                     </p>

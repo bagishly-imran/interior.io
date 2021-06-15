@@ -12,10 +12,10 @@ const AboutUs = props => {
         <section className = "about-us-section-area container">
 
             <div className = "section-one col-6" data-aos="fade-up">
-                <h3 className = "about-us-caption">
+                <h1 className = "about-us-caption">
                     We work side by side with you to create exceptional spaces.
-                </h3>
-                <div className = "counts">
+                </h1>
+                <section className = "counts">
 
                     {
                         props.counters.map(counts => (
@@ -26,7 +26,7 @@ const AboutUs = props => {
                         ))
                     }
 
-                </div>
+                </section>
             </div>
 
             <div className = "section-two col-6" data-aos="fade-up">

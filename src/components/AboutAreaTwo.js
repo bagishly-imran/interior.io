@@ -19,11 +19,11 @@ export default function AboutAreaTwo() {
             </div>
             <div className = "about-content-video">
 
-                <a className = "video-btn btn-shape-animation" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+                <a className = "video-btn btn-shape-animation" aria-label = "Interior Video" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
                     <i className="bi bi-play-fill"></i>
                 </a>
 
-                <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabIndex="-1">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content bg-transparent border-0">
 

@@ -48,7 +48,7 @@ const Navbar = () => {
 
                 <div className = "burger-menu-button">
                     
-                    <button onClick = {() => setOpen(open => !open)} className = "burger-button">
+                    <button onClick = {() => setOpen(open => !open)} aria-label = "Menu Button" className = "burger-button">
                         <i className={open ? "burger-btn bi bi-list" : "burger-btn bi bi-list bi-x"}></i>
                     </button>
                 </div>

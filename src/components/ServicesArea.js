@@ -10,7 +10,7 @@ const ServicesArea = props => {
 
     const {services} = props;
 
-    console.log(services);
+    // console.log(services);
 
     return(
         <div className = "services-area container" data-aos="fade-up">
