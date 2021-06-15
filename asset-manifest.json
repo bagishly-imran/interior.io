@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/interior.io/static/css/main.015c7e68.chunk.css",
-    "main.js": "/interior.io/static/js/main.16602ad2.chunk.js",
-    "main.js.map": "/interior.io/static/js/main.16602ad2.chunk.js.map",
+    "main.css": "/interior.io/static/css/main.af24b14e.chunk.css",
+    "main.js": "/interior.io/static/js/main.41ecaa98.chunk.js",
+    "main.js.map": "/interior.io/static/js/main.41ecaa98.chunk.js.map",
     "runtime-main.js": "/interior.io/static/js/runtime-main.baf52940.js",
     "runtime-main.js.map": "/interior.io/static/js/runtime-main.baf52940.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/interior.io/static/css/2.7fc9bc2b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.fc439cb1.chunk.js.map": "/interior.io/static/js/2.fc439cb1.chunk.js.map",
     "index.html": "/interior.io/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/interior.io/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.015c7e68.chunk.css.map": "/interior.io/static/css/main.015c7e68.chunk.css.map",
+    "static/css/main.af24b14e.chunk.css.map": "/interior.io/static/css/main.af24b14e.chunk.css.map",
     "static/js/2.fc439cb1.chunk.js.LICENSE.txt": "/interior.io/static/js/2.fc439cb1.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/interior.io/static/media/Jost-Regular.ba7997a1.ttf",
     "static/media/about1.b7430765.jpg": "/interior.io/static/media/about1.b7430765.jpg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.baf52940.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.fc439cb1.chunk.js",
-    "static/css/main.015c7e68.chunk.css",
-    "static/js/main.16602ad2.chunk.js"
+    "static/css/main.af24b14e.chunk.css",
+    "static/js/main.41ecaa98.chunk.js"
   ]
 }
