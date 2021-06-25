@@ -19,8 +19,8 @@
             width: 178px;
             display: inline;
             color: #fff;
-            background: #E67118;
-            border: 1px solid #E67118 !important;
+            background: #096e65;
+            border: 1px solid #096e65 !important;
             border: none;
             padding: 17px 35px 16px 33px !important;
             text-transform: capitalize;
@@ -34,7 +34,7 @@
             transition: 0.3s ease-in-out;
             &:hover{
                 background-color: transparent;
-                color: #E67118;
+                color: #096e65;
             }
         }
     }
@@ -66,7 +66,7 @@
             animation-timing-function: ease-out;
             animation-iteration-count: infinite;
             &:hover{
-                background-color: #E67118;
+                background-color: #096e65;
                 i{
                     color: #ffffff;
                 }
@@ -74,7 +74,7 @@
             i{
                 font-size: 40px !important;
                 text-align: center;
-                color: #E67118;
+                color: #096e65;
             }
         }
 

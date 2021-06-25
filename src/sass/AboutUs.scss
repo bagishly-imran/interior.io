@@ -14,7 +14,7 @@
             .counts-single{
                 width: 50%;
                 .count{
-                    color: #E67118;
+                    color: #096e65;
                     font-size: 50px;
                     font-family: "Jost", sans-serif;
                 }
@@ -40,19 +40,19 @@
             font-size: 20px;
             font-family: "Jost", sans-serif;
             color: #ffffff;
-            background-color: #E67118;
+            background-color: #096e65;
             text-decoration: none;
             text-transform: capitalize;
             margin-top: 32px;
             border-radius: 41px;
             padding: 16px 25px;
-            border: 1px solid #E67118;
+            border: 1px solid #096e65;
             line-height: 22px;
             transition: 0.5s ease-in-out;
             &:hover{
                 background: none;
-                border: 1px solid #E67118;
-                color: #E67118 !important;
+                border: 1px solid #096e65;
+                color: #096e65 !important;
             }
         }
     }

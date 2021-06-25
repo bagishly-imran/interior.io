@@ -27,13 +27,13 @@
             .phone-btn{
                 font-family: "Jost",sans-serif;
                 font-size: 24px !important;
-                color: #E67118 !important;
+                color: #096e65 !important;
                 margin-bottom: 0px;
                 font-weight: 600 !important;
                 display: block;
                 text-decoration: underline transparent;
                 &:hover{
-                    text-decoration: underline #E67118;
+                    text-decoration: underline #096e65;
                 }
             }
             .mail-btn{
@@ -51,7 +51,7 @@
                     transition: 0.3s ease-in-out;
                     margin: 10px;
                     &:hover{
-                        color: #E67118;
+                        color: #096e65;
                     }
                 }
             }
@@ -74,7 +74,7 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: 10px 20px;
-                border: 1px solid #E67118;
+                border: 1px solid #096e65;
                 color: #5E5E5E;
                 background: #fff;
                 border-radius: 30px;
@@ -90,7 +90,7 @@
                     outline: none;
                     border: none;
                     // margin-right: 5px !important;
-                    i{font-size: 20px; color: #E67118; }
+                    i{font-size: 20px; color: #096e65; }
                 }
             }
         }
