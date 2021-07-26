@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import '../sass/AboutAreaTwo.scss';
 
-export default function AboutAreaTwo() {
+const AboutAreaTwo = () => {
     return(
         <div className = "about-area-two">
             <div className = "caption-about-two container">
@@ -41,3 +41,5 @@ export default function AboutAreaTwo() {
         </div>
     )
 }
+
+export default AboutAreaTwo;

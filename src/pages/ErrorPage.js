@@ -2,7 +2,7 @@ import React from 'react'
 import '../sass/ErrorPage.scss';
 
 
-function ErrorPage() {
+const ErrorPage = () => {
     return (
         <div className = "error-page">
             <h1 className = "not-found-text display-1">Page is Not Found</h1>

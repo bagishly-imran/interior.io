@@ -1,7 +1,7 @@
 import React from 'react';
 import '../sass/BrandArea.scss';
 
-function BrandArea() {
+const BrandArea = () =>  {
     return(
         <div className = "brand-area container">
             <div className = "brand-title-content">

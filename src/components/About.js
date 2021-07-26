@@ -1,12 +1,14 @@
 import React from 'react';
 // import {substring} from 'react-dom';
-import {connect} from 'react-redux';
+import {useSelector} from 'react-redux';
 import {Link} from 'react-router-dom';
 import CountUp from 'react-countup';
 import '../sass/AboutUs.scss';
 
 
 const AboutUs = props => {
+
+    const counters = useSelector(state => state.counters);
 
     return(
         <section className = "about-us-section-area container">
@@ -18,7 +20,7 @@ const AboutUs = props => {
                 <section className = "counts">
 
                     {
-                        props.counters.map(counts => (
+                        counters.map(counts => (
                             <div key = {counts.id} className = "counts-single">
                                 <span className = "count"><CountUp end = {counts.number} duration = {counts.duration}/> {counts.plus}</span>
                                 <p className = "count-paragraph">{counts.label}</p>       
@@ -43,12 +45,5 @@ const AboutUs = props => {
     )
 }
 
-const mapStateToProps = state => {
-    return {
-        counters: state.counters
-    }
-}
-
-// export default AboutUs;
-
-export default connect(mapStateToProps)(AboutUs);
+    
+export default AboutUs;

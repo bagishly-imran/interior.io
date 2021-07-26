@@ -3,7 +3,7 @@ import '../sass/Footer.scss';
 import Logo from '../images/logo.png';
 import {Link} from 'react-router-dom';
 
-function footer() {
+const footer = () => {
     return(
         <footer className = "footer">
             <div className = "footer-one container">

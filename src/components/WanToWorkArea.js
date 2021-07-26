@@ -2,7 +2,7 @@ import React from 'react'
 import '../sass/WanToWorkArea.scss';
 import {Link} from 'react-router-dom';
 
-function WanToWorkArea() {
+const  WanToWorkArea = () =>  {
     return(
         <div className = "wan-to-work-area">
             <div className = "wantowork container">

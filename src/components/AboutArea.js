@@ -3,7 +3,7 @@ import '../sass/AboutArea.scss';
 import AreaImg from '../images/about1.jpg';
 import {Link} from 'react-router-dom';
 
-function AboutArea () {
+const  AboutArea = () => {
     return(
         <div className = "about-area">
             <div className = "container area-content">

@@ -1,16 +1,13 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import {useSelector} from 'react-redux';
 import '../sass/ServicesArea.scss';
-// import Service1Svg from '../images/services1.svg';
-// import Service2Svg from '../images/services2.svg';
-// import Service3Svg from '../images/services3.svg';
 import {Link} from 'react-router-dom';
 
 const ServicesArea = props => {
 
-    const {services} = props;
 
-    // console.log(services);
+    const services =  useSelector(state => state.services)
+
 
     return(
         <div className = "services-area container" data-aos="fade-up">
@@ -38,10 +35,5 @@ const ServicesArea = props => {
     )
 }
 
-const mapStateToProps = state => {
-    return{ 
-        services: state.services
-    }
-}
 
-export default connect(mapStateToProps)(ServicesArea);
+export default ServicesArea;

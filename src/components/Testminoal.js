@@ -1,9 +1,12 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import {useSelector} from 'react-redux';
 import '../sass/Testminoial.scss';
 import Slider from 'react-slick';
 
 const Testminoial =  props => {
+
+
+    const testminoials = useSelector(state => state.testminoials)
 
     const settings = {
         infinite: true,
@@ -29,8 +32,6 @@ const Testminoial =  props => {
     }
 
 
-    // console.log(props.testminoials);
-
     return(
         <div className = "testminoial">
             <div className = "testminoial-section container">
@@ -42,7 +43,7 @@ const Testminoial =  props => {
             <Slider {...settings}>
                     
                     {
-                        props.testminoials.map(testminoial => (
+                        testminoials.map(testminoial => (
                             <div key = {testminoial.id} className = "testminoial-card">
                                 <div className = "testminoial-stars nav">
                                     <i className ="bi bi-star-fill"></i>
@@ -73,10 +74,4 @@ const Testminoial =  props => {
     )
 }
 
-const mapStateToProps = state => {
-    return {
-        testminoials : state.testminoials
-    }
-}
-
-export default  connect(mapStateToProps)(Testminoial); 
+export default  Testminoial; 

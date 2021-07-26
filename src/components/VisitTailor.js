@@ -2,7 +2,7 @@ import React from 'react';
 import '../sass/VisitTailor.scss';
 import {Link} from 'react-router-dom';
 
-function VisitTailor () {
+const VisitTailor = () => {
     return(
         <div className =" visit-tailor-area">
             <div className = "visit-content-image">

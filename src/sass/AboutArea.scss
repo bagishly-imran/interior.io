@@ -44,9 +44,9 @@
         .about-area-image{
             width: 50%;
             display: flex;
-            justify-content: center;
+            justify-content: flex-end;
             .about-area-image{
-                max-width: 526px;
+                max-width: 350px;
             }
         }
     }
