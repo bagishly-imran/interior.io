@@ -5,8 +5,6 @@ import Logo from '../images/logo.png';
 
 
 
-
-
 const Navbar = () => {
 
     const [open, setOpen] = useState(true); 
@@ -55,14 +53,6 @@ const Navbar = () => {
 
             </div>
 
-            <div className = "header-two">
-                <div className = "hero-caption container">
-                    <h1 className ="hero-text">
-                        My home is <u className ="hero-undrline">almost put together,</u> but I could really use a new rug.
-                    </h1>
-                    <Link to = '/interior.io' className = "hero-btn" rel="noopener" data-aos="fade-up">Check Our Services</Link>
-                </div>
-            </div>
         </header>
     )
 }

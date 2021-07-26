@@ -72,51 +72,6 @@ header{
             }
         }
     }
-    .header-two{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 400px;  
-        background: url("../images/h1_hero.jpg") no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        object-fit: cover;
-        overflow: hidden;
-
-        .hero-caption{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .hero-text{
-                max-width: 640px;
-                font-size: 55px;
-                color: #ffffff;
-                font-family: "Jost", sans-serif;
-                text-align: center;
-            }
-            .hero-btn{
-                font-size: 18px;
-                font-family: "Jost", sans-serif;
-                color: #ffffff;
-                background-color: #2A2A2A;
-                text-decoration: none;
-                text-transform: capitalize;
-                margin-top: 32px;
-                border-radius: 41px;
-                padding: 25px 34px;
-                border: 1px solid #2A2A2A;
-                line-height: 16px;
-                transition: 0.5s ease-in-out;
-                &:hover{
-                    background: none;
-                    border: 1px solid #2A2A2A;
-                    color: #2A2A2A !important;
-                }
-            }
-        }
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -140,19 +95,3 @@ header{
     }
 }
 
-@media screen and (max-width: 768px) {
-    .header{
-        .header-two{
-            height: 400px;
-            .hero-caption{
-                .hero-text{
-                    font-size: 42px;
-                }
-                .hero-btn{
-                    margin-top: 25px;
-                    padding: 15px 34px;
-                }
-            }
-        }
-    }
-}

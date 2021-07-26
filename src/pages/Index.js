@@ -7,11 +7,13 @@ import ServicesArea from '../components/ServicesArea';
 import Testminoial from '../components/Testminoal';
 import AboutAreaTwo from '../components/AboutAreaTwo';
 import WanToWorkArea from '../components/WanToWorkArea';
+import HeaderTwo from '../components/HeaderTwo';
 
 
 function index() {
     return(
         <div>
+            <HeaderTwo/>
             <AboutUs/>
             <AboutArea/>
             <BrandArea/>
