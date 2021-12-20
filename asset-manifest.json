@@ -1,16 +1,11 @@
 {
   "files": {
-    "main.css": "/interior.io/static/css/main.c7af154f.chunk.css",
-    "main.js": "/interior.io/static/js/main.128e6a04.chunk.js",
-    "main.js.map": "/interior.io/static/js/main.128e6a04.chunk.js.map",
+    "main.css": "/interior.io/static/css/main.b25beb5a.chunk.css",
+    "main.js": "/interior.io/static/js/main.db6736be.chunk.js",
     "runtime-main.js": "/interior.io/static/js/runtime-main.baf52940.js",
-    "runtime-main.js.map": "/interior.io/static/js/runtime-main.baf52940.js.map",
-    "static/css/2.7fc9bc2b.chunk.css": "/interior.io/static/css/2.7fc9bc2b.chunk.css",
+    "static/css/2.0b5c1910.chunk.css": "/interior.io/static/css/2.0b5c1910.chunk.css",
     "static/js/2.fc230771.chunk.js": "/interior.io/static/js/2.fc230771.chunk.js",
-    "static/js/2.fc230771.chunk.js.map": "/interior.io/static/js/2.fc230771.chunk.js.map",
     "index.html": "/interior.io/index.html",
-    "static/css/2.7fc9bc2b.chunk.css.map": "/interior.io/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.c7af154f.chunk.css.map": "/interior.io/static/css/main.c7af154f.chunk.css.map",
     "static/js/2.fc230771.chunk.js.LICENSE.txt": "/interior.io/static/js/2.fc230771.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/interior.io/static/media/Jost-Regular.ba7997a1.ttf",
     "static/media/about1.b7430765.jpg": "/interior.io/static/media/about1.b7430765.jpg",
@@ -21,9 +16,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.baf52940.js",
-    "static/css/2.7fc9bc2b.chunk.css",
+    "static/css/2.0b5c1910.chunk.css",
     "static/js/2.fc230771.chunk.js",
-    "static/css/main.c7af154f.chunk.css",
-    "static/js/main.128e6a04.chunk.js"
+    "static/css/main.b25beb5a.chunk.css",
+    "static/js/main.db6736be.chunk.js"
   ]
 }
